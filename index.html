@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href='style.css' rel='stylesheet'>
+</head>
+<body>
+
+    <h1>Calculator</h1>
+
+    <p class='operation'>
+        <section class='addition'>
+            <p class='text'>Let's add!</p>
+            <input type='number' id='first-addend'>
+            <label class='symbol'>+</label>
+            <input type='number' id='second-addend'>
+            <button id='add'>=</button>
+            <span id='sum'></span>
+        </section>
+    </p>
+
+    <p class='operation'>
+        <section class='subtraction'>
+            <p class='text'>Let's subtract!</p>
+            <input type='number' id='minuend'>
+            <label class='symbol'>-</label>
+            <input type='number' id='subtrahend'>
+            <button id='subtract'>=</button>
+            <span id='difference'></span>
+        </section>
+    </p>
+
+    <p class='operation'>
+        <section class='multiplication'>
+            <p class='text'>Let's multiply!</p>
+            <input type='number' id='multiplicand'>
+            <label class='symbol'>&#215;</label>
+            <input type='number' id='multiplier'>
+            <button id='multiply'>=</button>
+            <span id='product'></span>
+        </section>
+    </p>
+
+    <p class='operation'>
+        <section class='division'>
+            <p class='text'>Let's divide!</p>
+            <input type='number' id='dividend'>
+            <label class='symbol'>&#247;</label>
+            <input type='number' id='divisor'>
+            <button id='divide'>=</button>
+            <span id='quotient'></span>
+        </section>
+    </p>
+
+
+
+    <script type='module' src='app.js'></script>
+</body>
+</html>
