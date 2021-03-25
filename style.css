@@ -1,25 +1,26 @@
 button {
-    border: 2px outset rgb(189, 182, 253);
-    background-color: rgb(210, 232, 252);
-    color:rgb(255, 188, 221);
+    border: 2px outset goldenrod;
+    background-color: black;
+    color:lightseagreen;
 }
 
 input {
-    border: 2px ridge rgb(189, 182, 253);
+    border: 2px ridge goldenrod;
     max-width: 100px;
-    color: rgb(255, 188, 221);
+    color: lightseagreen;
+    background-color: black;
 }
 
 .text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:rgb(255, 188, 221);
+    color:lightseagreen;
 }
 
 body {
     display: grid;
     width: 350px;
     margin: auto;
-    background-color: rgb(210, 232, 252);
+    background-color: black;
 }
 
 section {
@@ -28,17 +29,17 @@ section {
 }
 
 span {
-    color:rgb(255, 188, 221);
+    color:lightseagreen;
     margin-left: 25px;
 }
 
 label {
-    color: rgb(255, 188, 221);
+    color: lightseagreen;
 }
 
 h1 {
-    color:rgb(255, 188, 221);
-    border: 2px outset rgb(189, 182, 253);
-    background-color: rgb(210, 232, 252);
+    color:lightseagreen;
+    border: 2px outset goldenrod;
+    background-color: black;
     text-align: center;
 }
