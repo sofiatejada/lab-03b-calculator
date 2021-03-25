@@ -43,7 +43,7 @@ const divisor = document.getElementById('divisor');
 const divide = document.getElementById('divide');
 const quotient = document.getElementById('quotient');
 
-//multiplication action
+//division action
 divide.addEventListener('click', () => {
     const num1 = Number(dividend.value);
     const num2 = Number(divisor.value);
